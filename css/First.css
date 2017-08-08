@@ -1,0 +1,206 @@
+h1{
+	text-align: center;
+	text-shadow: 4px 4px 4px gray;
+	font-size:80px;
+	height:50px;
+	margin-top: 0px;
+}
+ul li{
+	display:inline;
+}
+ul{
+	word-spacing: 20px;
+	background-color: #d7dae0;
+	height:30px;
+	padding:10px;
+}
+a{
+	text-decoration: none;
+	font-size: 17px;
+}
+li a:hover{
+	text-decoration: underline;
+	color: red;
+}
+li .hover:hover{
+	color: #b968cc;
+	font-size: 20px;
+}
+
+
+.heroimage{
+
+	width:1275px;
+	height: 250px;
+	margin-top: -10px;
+}
+.image1, .image2
+{
+	height:310px;
+	width:350px;
+	float:left;
+	margin-right: 25px;
+}
+.image2{
+	
+	float:right;
+	margin-top: 20px;
+
+}
+.para1{
+	float:right;
+	width:890px;
+	border:1px solid white;	
+}
+
+.para2{
+	float:left;
+	margin-top: 10px;
+	width:850px;
+	border:1px solid white;	
+	
+}
+
+.one, .two, .three{
+	float: left;
+	height:750px;
+	width:400px;
+	border:1px solid white;
+	position:relative;
+	left:15px;
+}
+
+.two{
+	left:35px;
+	
+}
+.three{
+	left:55px;	
+}
+h2{
+	text-align: center;
+	font-style: italic;
+}
+p{
+	text-align: center;
+}
+
+#container    {
+	
+	width:1245px;
+	height:460px;
+	border:1px solid white;
+	margin-top: 800px;
+	margin-left: 15px;
+	margin-right: 15px;
+	background-color: white;
+}
+.four, .five, .six{
+	float: left;
+	height:350px;
+	width:300px;
+	border:1px solid white;
+	position:relative;
+	left:150px;
+}
+.five{
+	left:170px;
+}
+.six{
+	left:190px;
+}
+.footer{
+	margin-top: 0px;
+	color:white;
+	text-align:center;
+	background-color:black;
+	padding: 1em;
+	width:1185px;
+	margin-left: 14px;
+	height:100px;
+
+}
+.imgdetail{
+	display: block;
+	height:230px;
+	width: 280px;
+	padding-top: 5px;
+	padding-left: 4px;
+	box-shadow: 10px 10px 5px #888888;
+
+}
+.img_img
+{
+	display: block;
+	margin-top: 20px;
+	height:350px;
+	width:380px;
+	margin:auto;
+	padding:10px;
+	box-shadow: 10px 10px 5px #888888;
+}
+.red{
+	color: red;
+}
+.footer1{
+	display:inline;
+	height:40px;
+	width:40px;
+	margin-top: 0px;
+	box-shadow: 10px 10px 5px black;
+}
+/* carousel */
+.media-carousel 
+{
+  margin-bottom: 0;
+  padding: 0 40px 30px 40px;
+  margin-top: 30px;
+}
+/* Previous button  */
+.media-carousel .carousel-control.left 
+{
+  left: -12px;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+/* Next button  */
+.media-carousel .carousel-control.right 
+{
+  right: -12px !important;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+/* Changes the position of the indicators */
+.media-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.media-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+.media-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+.media-carousel img
+{
+  width: 350px;
+  height: 200px
+}
+/* End carousel */
+
